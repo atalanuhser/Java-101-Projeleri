@@ -29,7 +29,7 @@ public class Ucak {
                 System.out.print("Toplam Tutar:"+bilet + " TL");
             }else{
                 double hesap = (bilet * 0.8) * 2 ;
-                System.out.print("Toplam Tutar:"+hesap+" Tl");
+                System.out.print("Toplam Tutar:"+hesap+" TL");
             }
 
         }else{
