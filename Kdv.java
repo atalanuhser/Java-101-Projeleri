@@ -13,7 +13,7 @@ public class Main {
         double kdvTutari = tutar * kdvOrani;
         double kdvliFiyat = tutar + kdvTutari;
 
-        // Sonuçları ekrana yazdır
+      
         System.out.println("KDV'siz Fiyat: " + tutar);
         System.out.println("KDV Oranı: %" + (kdvOrani * 100));
         System.out.println("KDV Tutarı: " + kdvTutari);
