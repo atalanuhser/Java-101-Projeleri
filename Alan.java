@@ -10,7 +10,7 @@ public class Alan {
         System.out.println("3.Kenar Uzunluğunu Giriniz");
         c=inp.nextInt();
         double u = (a+b+c)/2;
-        double alan = u*(u-a)*(u-b)*(u-c);
+        double alan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
         System.out.println("Üçgenin Alanı:"+alan);
 
 
