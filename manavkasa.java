@@ -17,7 +17,7 @@ public class Main{
         patlican= input.nextInt();
 
         double tutar= (armut*2.14)+(elma*3.67)+(domates*1.11)+(muz*0.95)+(patlican*5.0);
-        System.out.print("Toplam Tutar:"+tutar);
+        System.out.print("Toplam Tutar:"+ tutar);
 
     }
 }
