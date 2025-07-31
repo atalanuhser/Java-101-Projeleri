@@ -1,29 +1,21 @@
 import java.util.Scanner;
+
 public class Hava {
-    public static void main (String[]args){
-        int heat ;
-        Scanner input = new Scanner (System.in);
-        System.out.print ( "Sıcaklık değerini giriniz:");
+    public static void main(String[] args) {
+        int heat;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Sıcaklık değerini giriniz: ");
         heat = input.nextInt();
 
-        if (heat <= 5 ) {
-            System.out.println("Kayak yapabilirsiniz.");
-        }else if(heat <= 25){
-            if (heat <= 15){
-                System.out.println("Sinemaya gidebilirsiniz.");
-
-            }if (heat >= 10){
-                System.out.println("Pikniğe gidebilirsiniz.");
-
-            }
-
-
-            }else{
-            System.out.println("Yüzmeye gidebilirsiniz.");
-
-
+        if (heat < 5) {
+            System.out.println("Kayak yapmayı öneririm.");
+        } else if (heat >= 5 && heat < 15) {
+            System.out.println("Sinema etkinliğini öneririm.");
+        } else if (heat >= 15 && heat < 25) {
+            System.out.println("Piknik yapmayı öneririm.");
+        } else { 
+            System.out.println("Yüzme etkinliğini öneririm.");
         }
-
-
     }
 }
